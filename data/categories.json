@@ -1,0 +1,2026 @@
+[
+  {
+    "id": "1",
+    "path": "Collectibles"
+  },
+  {
+    "id": "34",
+    "path": "Collectibles > Advertising"
+  },
+  {
+    "id": "63",
+    "path": "Collectibles > Comic Books & Memorabilia"
+  },
+  {
+    "id": "113",
+    "path": "Collectibles > Sewing (1930-Now)"
+  },
+  {
+    "id": "124",
+    "path": "Collectibles > Paper"
+  },
+  {
+    "id": "137",
+    "path": "Collectibles > Disneyana"
+  },
+  {
+    "id": "152",
+    "path": "Collectibles > Science Fiction & Horror"
+  },
+  {
+    "id": "412",
+    "path": "Collectibles > Science & Medicine (1930-Now)"
+  },
+  {
+    "id": "417",
+    "path": "Collectibles > Transportation"
+  },
+  {
+    "id": "562",
+    "path": "Collectibles > Breweriana, Beer"
+  },
+  {
+    "id": "593",
+    "path": "Collectibles > Tobacciana"
+  },
+  {
+    "id": "597",
+    "path": "Collectibles > Vanity, Perfume & Shaving"
+  },
+  {
+    "id": "898",
+    "path": "Collectibles > Casino"
+  },
+  {
+    "id": "907",
+    "path": "Collectibles > Holiday & Seasonal"
+  },
+  {
+    "id": "914",
+    "path": "Collectibles > Postcards & Supplies"
+  },
+  {
+    "id": "966",
+    "path": "Collectibles > Pens & Writing Instruments"
+  },
+  {
+    "id": "1335",
+    "path": "Collectibles > Animals"
+  },
+  {
+    "id": "1401",
+    "path": "Collectibles > Knives, Swords & Blades"
+  },
+  {
+    "id": "1404",
+    "path": "Collectibles > Lamps, Lighting"
+  },
+  {
+    "id": "1430",
+    "path": "Collectibles > Metalware"
+  },
+  {
+    "id": "1446",
+    "path": "Collectibles > Religion & Spirituality"
+  },
+  {
+    "id": "1462",
+    "path": "Collectibles > Credit, Charge Cards"
+  },
+  {
+    "id": "3213",
+    "path": "Collectibles > Rocks, Fossils & Minerals"
+  },
+  {
+    "id": "3913",
+    "path": "Collectibles > Cultures & Ethnicities"
+  },
+  {
+    "id": "10860",
+    "path": "Collectibles > Fantasy, Mythical & Magic"
+  },
+  {
+    "id": "13658",
+    "path": "Collectibles > Animation Art & Merchandise"
+  },
+  {
+    "id": "13777",
+    "path": "Collectibles > Decorative Collectibles"
+  },
+  {
+    "id": "13849",
+    "path": "Collectibles > Tools, Hardware & Locks"
+  },
+  {
+    "id": "13905",
+    "path": "Collectibles > Kitchen & Home"
+  },
+  {
+    "id": "13956",
+    "path": "Collectibles > Militaria"
+  },
+  {
+    "id": "14005",
+    "path": "Collectibles > Pez, Keychains, Promo Glasses"
+  },
+  {
+    "id": "14429",
+    "path": "Collectibles > Autographs"
+  },
+  {
+    "id": "29797",
+    "path": "Collectibles > Bottles & Insulators"
+  },
+  {
+    "id": "29832",
+    "path": "Collectibles > Radio, Phonograph, TV, Phone"
+  },
+  {
+    "id": "39507",
+    "path": "Collectibles > Pinbacks & Lunchboxes"
+  },
+  {
+    "id": "45058",
+    "path": "Collectibles > Wholesale Lots"
+  },
+  {
+    "id": "60811",
+    "path": "Collectibles > Phone Cards"
+  },
+  {
+    "id": "66502",
+    "path": "Collectibles > Arcade, Jukeboxes & Pinball"
+  },
+  {
+    "id": "66503",
+    "path": "Collectibles > Banks, Registers & Vending"
+  },
+  {
+    "id": "69851",
+    "path": "Collectibles > Vintage, Retro, Mid-Century"
+  },
+  {
+    "id": "156277",
+    "path": "Collectibles > Beads"
+  },
+  {
+    "id": "165800",
+    "path": "Collectibles > Souvenirs & Travel Memorabilia"
+  },
+  {
+    "id": "182982",
+    "path": "Collectibles > Non-Sport Trading Cards"
+  },
+  {
+    "id": "258032",
+    "path": "Collectibles > Virtual & Crypto Collectibles"
+  },
+  {
+    "id": "259135",
+    "path": "Collectibles > Historical Memorabilia"
+  },
+  {
+    "id": "261595",
+    "path": "Collectibles > Baby & Nursery"
+  },
+  {
+    "id": "261650",
+    "path": "Collectibles > Jewelry"
+  },
+  {
+    "id": "261716",
+    "path": "Collectibles > Linens & Textiles"
+  },
+  {
+    "id": "262050",
+    "path": "Collectibles > Emerging NFTs"
+  },
+  {
+    "id": "262344",
+    "path": "Collectibles > Non-Sport Stickers, Collections & Albums"
+  },
+  {
+    "id": "262413",
+    "path": "Collectibles > Photographic Images"
+  },
+  {
+    "id": "263076",
+    "path": "Collectibles > Collectible Figures & Supplies"
+  },
+  {
+    "id": "99",
+    "path": "Everything Else"
+  },
+  {
+    "id": "1466",
+    "path": "Everything Else > Weird Stuff"
+  },
+  {
+    "id": "3143",
+    "path": "Everything Else > Career Development & Education"
+  },
+  {
+    "id": "14112",
+    "path": "Everything Else > Test Category For Internal Use Only Parent Level 2"
+  },
+  {
+    "id": "19266",
+    "path": "Everything Else > Metaphysical"
+  },
+  {
+    "id": "20924",
+    "path": "Everything Else > eBay User Tools"
+  },
+  {
+    "id": "20925",
+    "path": "Everything Else > Genealogy"
+  },
+  {
+    "id": "88433",
+    "path": "Everything Else > Every Other Thing"
+  },
+  {
+    "id": "88739",
+    "path": "Everything Else > Funeral & Cemetery"
+  },
+  {
+    "id": "102329",
+    "path": "Everything Else > Personal Development"
+  },
+  {
+    "id": "102480",
+    "path": "Everything Else > Information Products"
+  },
+  {
+    "id": "102535",
+    "path": "Everything Else > Personal Security"
+  },
+  {
+    "id": "102545",
+    "path": "Everything Else > Religious Products & Supplies"
+  },
+  {
+    "id": "102553",
+    "path": "Everything Else > Reward Points & Incentives"
+  },
+  {
+    "id": "177600",
+    "path": "Everything Else > eBay Special Offers"
+  },
+  {
+    "id": "183627",
+    "path": "Everything Else > LP Parent"
+  },
+  {
+    "id": "220",
+    "path": "Toys & Hobbies"
+  },
+  {
+    "id": "222",
+    "path": "Toys & Hobbies > Diecast & Toy Vehicles"
+  },
+  {
+    "id": "233",
+    "path": "Toys & Hobbies > Games"
+  },
+  {
+    "id": "246",
+    "path": "Toys & Hobbies > Action Figures & Accessories"
+  },
+  {
+    "id": "436",
+    "path": "Toys & Hobbies > Stuffed Animals"
+  },
+  {
+    "id": "717",
+    "path": "Toys & Hobbies > Vintage & Antique Toys"
+  },
+  {
+    "id": "1188",
+    "path": "Toys & Hobbies > Models & Kits"
+  },
+  {
+    "id": "2536",
+    "path": "Toys & Hobbies > Collectible Card Games"
+  },
+  {
+    "id": "2562",
+    "path": "Toys & Hobbies > Radio Control & Control Line"
+  },
+  {
+    "id": "2613",
+    "path": "Toys & Hobbies > Puzzles"
+  },
+  {
+    "id": "2616",
+    "path": "Toys & Hobbies > Slot Cars"
+  },
+  {
+    "id": "2631",
+    "path": "Toys & Hobbies > Toy Soldiers"
+  },
+  {
+    "id": "11731",
+    "path": "Toys & Hobbies > Educational"
+  },
+  {
+    "id": "11743",
+    "path": "Toys & Hobbies > Outdoor Toys & Structures"
+  },
+  {
+    "id": "19016",
+    "path": "Toys & Hobbies > Classic Toys"
+  },
+  {
+    "id": "19071",
+    "path": "Toys & Hobbies > Electronic, Battery & Wind-Up"
+  },
+  {
+    "id": "19077",
+    "path": "Toys & Hobbies > Fast Food & Cereal Premiums"
+  },
+  {
+    "id": "19169",
+    "path": "Toys & Hobbies > Preschool Toys & Pretend Play"
+  },
+  {
+    "id": "19192",
+    "path": "Toys & Hobbies > Robots, Monsters & Space Toys"
+  },
+  {
+    "id": "40149",
+    "path": "Toys & Hobbies > Wholesale Lots"
+  },
+  {
+    "id": "49019",
+    "path": "Toys & Hobbies > Beanbag Plush"
+  },
+  {
+    "id": "58799",
+    "path": "Toys & Hobbies > Marbles"
+  },
+  {
+    "id": "180250",
+    "path": "Toys & Hobbies > Model Railroads & Trains"
+  },
+  {
+    "id": "183446",
+    "path": "Toys & Hobbies > Building Toys"
+  },
+  {
+    "id": "237",
+    "path": "Dolls & Bears"
+  },
+  {
+    "id": "238",
+    "path": "Dolls & Bears > Dolls, Clothing & Accessories"
+  },
+  {
+    "id": "1202",
+    "path": "Dolls & Bears > Dollhouse Miniatures"
+  },
+  {
+    "id": "2440",
+    "path": "Dolls & Bears > Paper Dolls, Clothes & Accessories"
+  },
+  {
+    "id": "262353",
+    "path": "Dolls & Bears > Bears, Clothing & Accessories"
+  },
+  {
+    "id": "260",
+    "path": "Stamps"
+  },
+  {
+    "id": "261",
+    "path": "Stamps > United States"
+  },
+  {
+    "id": "3478",
+    "path": "Stamps > Canada"
+  },
+  {
+    "id": "3499",
+    "path": "Stamps > Great Britain"
+  },
+  {
+    "id": "4742",
+    "path": "Stamps > Europe"
+  },
+  {
+    "id": "4752",
+    "path": "Stamps > Topical Stamps"
+  },
+  {
+    "id": "7898",
+    "path": "Stamps > Specialty Philately"
+  },
+  {
+    "id": "65174",
+    "path": "Stamps > British Colonies & Territories"
+  },
+  {
+    "id": "170137",
+    "path": "Stamps > Other Stamps"
+  },
+  {
+    "id": "179377",
+    "path": "Stamps > Caribbean"
+  },
+  {
+    "id": "181416",
+    "path": "Stamps > Asia"
+  },
+  {
+    "id": "181417",
+    "path": "Stamps > Latin America"
+  },
+  {
+    "id": "181420",
+    "path": "Stamps > Worldwide"
+  },
+  {
+    "id": "181421",
+    "path": "Stamps > Publications & Supplies"
+  },
+  {
+    "id": "181422",
+    "path": "Stamps > Middle East"
+  },
+  {
+    "id": "181423",
+    "path": "Stamps > Africa"
+  },
+  {
+    "id": "181424",
+    "path": "Stamps > Australia & Oceania"
+  },
+  {
+    "id": "267",
+    "path": "Books & Magazines"
+  },
+  {
+    "id": "280",
+    "path": "Books & Magazines > Magazines"
+  },
+  {
+    "id": "29223",
+    "path": "Books & Magazines > Antiquarian & Collectible"
+  },
+  {
+    "id": "29792",
+    "path": "Books & Magazines > Audiobooks"
+  },
+  {
+    "id": "45110",
+    "path": "Books & Magazines > Accessories"
+  },
+  {
+    "id": "118254",
+    "path": "Books & Magazines > Catalogs"
+  },
+  {
+    "id": "184644",
+    "path": "Books & Magazines > Textbooks, Education & Reference"
+  },
+  {
+    "id": "261186",
+    "path": "Books & Magazines > Books"
+  },
+  {
+    "id": "281",
+    "path": "Jewelry & Watches"
+  },
+  {
+    "id": "491",
+    "path": "Jewelry & Watches > Loose Diamonds & Gemstones"
+  },
+  {
+    "id": "4196",
+    "path": "Jewelry & Watches > Fine Jewelry"
+  },
+  {
+    "id": "10290",
+    "path": "Jewelry & Watches > Men's Jewelry"
+  },
+  {
+    "id": "10968",
+    "path": "Jewelry & Watches > Fashion Jewelry"
+  },
+  {
+    "id": "84605",
+    "path": "Jewelry & Watches > Children's Jewelry"
+  },
+  {
+    "id": "91427",
+    "path": "Jewelry & Watches > Engagement & Wedding"
+  },
+  {
+    "id": "110633",
+    "path": "Jewelry & Watches > Handcrafted & Artisan Jewelry"
+  },
+  {
+    "id": "164352",
+    "path": "Jewelry & Watches > Jewelry Care, Design & Repair"
+  },
+  {
+    "id": "260324",
+    "path": "Jewelry & Watches > Watches, Parts & Accessories"
+  },
+  {
+    "id": "261986",
+    "path": "Jewelry & Watches > Body Jewelry"
+  },
+  {
+    "id": "261997",
+    "path": "Jewelry & Watches > Loose Beads"
+  },
+  {
+    "id": "262022",
+    "path": "Jewelry & Watches > Jewelry Mixed Lots"
+  },
+  {
+    "id": "262023",
+    "path": "Jewelry & Watches > Other Jewelry"
+  },
+  {
+    "id": "262024",
+    "path": "Jewelry & Watches > Vintage & Antique Jewelry"
+  },
+  {
+    "id": "262025",
+    "path": "Jewelry & Watches > Ethnic, Regional & Tribal"
+  },
+  {
+    "id": "293",
+    "path": "Consumer Electronics"
+  },
+  {
+    "id": "1500",
+    "path": "Consumer Electronics > Radio Communication"
+  },
+  {
+    "id": "3270",
+    "path": "Consumer Electronics > Vehicle Electronics & GPS"
+  },
+  {
+    "id": "3286",
+    "path": "Consumer Electronics > Home Telephones & Accessories"
+  },
+  {
+    "id": "15052",
+    "path": "Consumer Electronics > Portable Audio & Headphones"
+  },
+  {
+    "id": "32852",
+    "path": "Consumer Electronics > TV, Video & Home Audio"
+  },
+  {
+    "id": "48446",
+    "path": "Consumer Electronics > Multipurpose Batteries & Power"
+  },
+  {
+    "id": "175837",
+    "path": "Consumer Electronics > Other Consumer Electronics"
+  },
+  {
+    "id": "178894",
+    "path": "Consumer Electronics > Smart Glasses"
+  },
+  {
+    "id": "183067",
+    "path": "Consumer Electronics > Virtual Reality"
+  },
+  {
+    "id": "183077",
+    "path": "Consumer Electronics > Vintage Electronics"
+  },
+  {
+    "id": "185067",
+    "path": "Consumer Electronics > Surveillance & Smart Home Electronics"
+  },
+  {
+    "id": "259701",
+    "path": "Consumer Electronics > Mixed Lots"
+  },
+  {
+    "id": "316",
+    "path": "Specialty Services"
+  },
+  {
+    "id": "317",
+    "path": "Specialty Services > Other Specialty Services"
+  },
+  {
+    "id": "20943",
+    "path": "Specialty Services > Printing & Personalization"
+  },
+  {
+    "id": "47104",
+    "path": "Specialty Services > Web & Computer Services"
+  },
+  {
+    "id": "47119",
+    "path": "Specialty Services > Restoration & Repair"
+  },
+  {
+    "id": "47126",
+    "path": "Specialty Services > Artistic Services"
+  },
+  {
+    "id": "47131",
+    "path": "Specialty Services > Graphic & Logo Design"
+  },
+  {
+    "id": "50343",
+    "path": "Specialty Services > Custom Clothing & Jewelry"
+  },
+  {
+    "id": "50349",
+    "path": "Specialty Services > eBay Auction Services"
+  },
+  {
+    "id": "50355",
+    "path": "Specialty Services > Media Editing & Duplication"
+  },
+  {
+    "id": "170048",
+    "path": "Specialty Services > Home Improvement Services"
+  },
+  {
+    "id": "175814",
+    "path": "Specialty Services > Item Based Services"
+  },
+  {
+    "id": "550",
+    "path": "Art"
+  },
+  {
+    "id": "360",
+    "path": "Art > Art Prints"
+  },
+  {
+    "id": "551",
+    "path": "Art > Paintings"
+  },
+  {
+    "id": "552",
+    "path": "Art > Art Drawings"
+  },
+  {
+    "id": "553",
+    "path": "Art > Art Sculptures"
+  },
+  {
+    "id": "554",
+    "path": "Art > Mixed Media Art & Collage Art"
+  },
+  {
+    "id": "2211",
+    "path": "Art > Art Photographs"
+  },
+  {
+    "id": "20158",
+    "path": "Art > Other Art"
+  },
+  {
+    "id": "28009",
+    "path": "Art > Art Posters"
+  },
+  {
+    "id": "156196",
+    "path": "Art > Textile Art & Fiber Art"
+  },
+  {
+    "id": "262051",
+    "path": "Art > Art NFTs"
+  },
+  {
+    "id": "619",
+    "path": "Musical Instruments & Gear"
+  },
+  {
+    "id": "308",
+    "path": "Musical Instruments & Gear > Other Musical Instruments"
+  },
+  {
+    "id": "3858",
+    "path": "Musical Instruments & Gear > Guitars & Basses"
+  },
+  {
+    "id": "10181",
+    "path": "Musical Instruments & Gear > Wind & Woodwind"
+  },
+  {
+    "id": "12922",
+    "path": "Musical Instruments & Gear > Stage Lighting & Effects"
+  },
+  {
+    "id": "16212",
+    "path": "Musical Instruments & Gear > Brass"
+  },
+  {
+    "id": "48458",
+    "path": "Musical Instruments & Gear > DJ Equipment"
+  },
+  {
+    "id": "52555",
+    "path": "Musical Instruments & Gear > Wholesale Lots"
+  },
+  {
+    "id": "175696",
+    "path": "Musical Instruments & Gear > Karaoke Entertainment"
+  },
+  {
+    "id": "180008",
+    "path": "Musical Instruments & Gear > General Accessories"
+  },
+  {
+    "id": "180010",
+    "path": "Musical Instruments & Gear > Pianos, Keyboards & Organs"
+  },
+  {
+    "id": "180012",
+    "path": "Musical Instruments & Gear > Percussion"
+  },
+  {
+    "id": "180014",
+    "path": "Musical Instruments & Gear > Pro Audio Equipment"
+  },
+  {
+    "id": "180015",
+    "path": "Musical Instruments & Gear > Sheet Music & Song Books"
+  },
+  {
+    "id": "180016",
+    "path": "Musical Instruments & Gear > String"
+  },
+  {
+    "id": "181162",
+    "path": "Musical Instruments & Gear > Vintage Musical Instruments"
+  },
+  {
+    "id": "182150",
+    "path": "Musical Instruments & Gear > Instruction Books, CDs & Video"
+  },
+  {
+    "id": "625",
+    "path": "Cameras & Photo"
+  },
+  {
+    "id": "3326",
+    "path": "Cameras & Photo > Vintage Movie & Photography"
+  },
+  {
+    "id": "4684",
+    "path": "Cameras & Photo > Camera Manuals & Guides"
+  },
+  {
+    "id": "11724",
+    "path": "Cameras & Photo > Camcorders"
+  },
+  {
+    "id": "15200",
+    "path": "Cameras & Photo > Camera, Drone & Photo Accessories"
+  },
+  {
+    "id": "21162",
+    "path": "Cameras & Photo > Video Production & Editing"
+  },
+  {
+    "id": "27432",
+    "path": "Cameras & Photo > Other Cameras & Photo"
+  },
+  {
+    "id": "28179",
+    "path": "Cameras & Photo > Binoculars & Telescopes"
+  },
+  {
+    "id": "30078",
+    "path": "Cameras & Photo > Lighting & Studio"
+  },
+  {
+    "id": "30090",
+    "path": "Cameras & Photo > Tripods & Supports"
+  },
+  {
+    "id": "31388",
+    "path": "Cameras & Photo > Digital Cameras"
+  },
+  {
+    "id": "45089",
+    "path": "Cameras & Photo > Mixed Lots"
+  },
+  {
+    "id": "64353",
+    "path": "Cameras & Photo > Flashes & Flash Accessories"
+  },
+  {
+    "id": "69323",
+    "path": "Cameras & Photo > Film Photography"
+  },
+  {
+    "id": "78997",
+    "path": "Cameras & Photo > Lenses & Filters"
+  },
+  {
+    "id": "150044",
+    "path": "Cameras & Photo > Digital Photo Frames"
+  },
+  {
+    "id": "179697",
+    "path": "Cameras & Photo > Camera Drones"
+  },
+  {
+    "id": "182074",
+    "path": "Cameras & Photo > Replacement Parts & Tools"
+  },
+  {
+    "id": "870",
+    "path": "Pottery & Glass"
+  },
+  {
+    "id": "170129",
+    "path": "Pottery & Glass > Price Guides & Publications"
+  },
+  {
+    "id": "262359",
+    "path": "Pottery & Glass > Drinkware & Barware"
+  },
+  {
+    "id": "262364",
+    "path": "Pottery & Glass > Decorative Cookware, Dinnerware & Serveware"
+  },
+  {
+    "id": "262365",
+    "path": "Pottery & Glass > Other Pottery & Glass"
+  },
+  {
+    "id": "262384",
+    "path": "Pottery & Glass > Decorative Pottery & Glassware"
+  },
+  {
+    "id": "262410",
+    "path": "Pottery & Glass > Lamps, Lighting"
+  },
+  {
+    "id": "888",
+    "path": "Sporting Goods"
+  },
+  {
+    "id": "310",
+    "path": "Sporting Goods > Other Sporting Goods"
+  },
+  {
+    "id": "1492",
+    "path": "Sporting Goods > Fishing"
+  },
+  {
+    "id": "1513",
+    "path": "Sporting Goods > Golf"
+  },
+  {
+    "id": "7294",
+    "path": "Sporting Goods > Cycling"
+  },
+  {
+    "id": "7301",
+    "path": "Sporting Goods > Hunting"
+  },
+  {
+    "id": "15273",
+    "path": "Sporting Goods > Fitness, Running & Yoga"
+  },
+  {
+    "id": "16034",
+    "path": "Sporting Goods > Camping & Hiking"
+  },
+  {
+    "id": "36259",
+    "path": "Sporting Goods > Winter Sports"
+  },
+  {
+    "id": "36274",
+    "path": "Sporting Goods > Indoor Games"
+  },
+  {
+    "id": "40146",
+    "path": "Sporting Goods > Wholesale Lots"
+  },
+  {
+    "id": "159043",
+    "path": "Sporting Goods > Outdoor Sports"
+  },
+  {
+    "id": "159049",
+    "path": "Sporting Goods > Team Sports"
+  },
+  {
+    "id": "159134",
+    "path": "Sporting Goods > Tennis & Racquet Sports"
+  },
+  {
+    "id": "159136",
+    "path": "Sporting Goods > Water Sports"
+  },
+  {
+    "id": "177890",
+    "path": "Sporting Goods > Tactical & Duty Gear"
+  },
+  {
+    "id": "179767",
+    "path": "Sporting Goods > Boxing, Martial Arts & MMA"
+  },
+  {
+    "id": "1249",
+    "path": "Video Games & Consoles"
+  },
+  {
+    "id": "38583",
+    "path": "Video Games & Consoles > Video Game Merchandise"
+  },
+  {
+    "id": "54968",
+    "path": "Video Games & Consoles > Video Game Accessories"
+  },
+  {
+    "id": "139971",
+    "path": "Video Games & Consoles > Video Game Consoles"
+  },
+  {
+    "id": "139973",
+    "path": "Video Games & Consoles > Video Games"
+  },
+  {
+    "id": "156595",
+    "path": "Video Games & Consoles > Strategy Guides & Cheats"
+  },
+  {
+    "id": "156597",
+    "path": "Video Games & Consoles > Prepaid Gaming Cards"
+  },
+  {
+    "id": "171833",
+    "path": "Video Games & Consoles > Replacement Parts & Tools"
+  },
+  {
+    "id": "182174",
+    "path": "Video Games & Consoles > Manuals, Inserts & Box Art"
+  },
+  {
+    "id": "182175",
+    "path": "Video Games & Consoles > Original Game Cases & Boxes"
+  },
+  {
+    "id": "260000",
+    "path": "Video Games & Consoles > Mixed Lots"
+  },
+  {
+    "id": "1281",
+    "path": "Pet Supplies"
+  },
+  {
+    "id": "301",
+    "path": "Pet Supplies > Other Pet Supplies"
+  },
+  {
+    "id": "1285",
+    "path": "Pet Supplies > Reptile Supplies"
+  },
+  {
+    "id": "20734",
+    "path": "Pet Supplies > Bird Supplies"
+  },
+  {
+    "id": "20737",
+    "path": "Pet Supplies > Cat Supplies"
+  },
+  {
+    "id": "20742",
+    "path": "Pet Supplies > Dog Supplies"
+  },
+  {
+    "id": "20754",
+    "path": "Pet Supplies > Fish & Aquariums"
+  },
+  {
+    "id": "48760",
+    "path": "Pet Supplies > Wholesale Lots"
+  },
+  {
+    "id": "116391",
+    "path": "Pet Supplies > Pet Memorials & Urns"
+  },
+  {
+    "id": "177801",
+    "path": "Pet Supplies > Backyard Poultry Supplies"
+  },
+  {
+    "id": "259318",
+    "path": "Pet Supplies > Cameras"
+  },
+  {
+    "id": "259319",
+    "path": "Pet Supplies > Trackers"
+  },
+  {
+    "id": "259320",
+    "path": "Pet Supplies > Small Animal Supplies"
+  },
+  {
+    "id": "1305",
+    "path": "Tickets & Experiences"
+  },
+  {
+    "id": "1306",
+    "path": "Tickets & Experiences > Other Tickets & Experiences"
+  },
+  {
+    "id": "170591",
+    "path": "Tickets & Experiences > Special Experiences"
+  },
+  {
+    "id": "170594",
+    "path": "Tickets & Experiences > Theme Park & Club Passes"
+  },
+  {
+    "id": "173633",
+    "path": "Tickets & Experiences > Sports Tickets"
+  },
+  {
+    "id": "173634",
+    "path": "Tickets & Experiences > Concert Tickets"
+  },
+  {
+    "id": "173635",
+    "path": "Tickets & Experiences > Theater Tickets"
+  },
+  {
+    "id": "178892",
+    "path": "Tickets & Experiences > Parking Passes"
+  },
+  {
+    "id": "2984",
+    "path": "Baby"
+  },
+  {
+    "id": "1261",
+    "path": "Baby > Other Baby"
+  },
+  {
+    "id": "19068",
+    "path": "Baby > Toys for Baby"
+  },
+  {
+    "id": "20394",
+    "path": "Baby > Bathing & Grooming"
+  },
+  {
+    "id": "20400",
+    "path": "Baby > Feeding"
+  },
+  {
+    "id": "20416",
+    "path": "Baby > Nursery Bedding"
+  },
+  {
+    "id": "20422",
+    "path": "Baby > Nursery Furniture"
+  },
+  {
+    "id": "20433",
+    "path": "Baby > Baby Safety & Health"
+  },
+  {
+    "id": "37631",
+    "path": "Baby > Potty Training"
+  },
+  {
+    "id": "45455",
+    "path": "Baby > Diapering"
+  },
+  {
+    "id": "48757",
+    "path": "Baby > Wholesale Lots"
+  },
+  {
+    "id": "66692",
+    "path": "Baby > Car Safety Seats"
+  },
+  {
+    "id": "66697",
+    "path": "Baby > Nursery Décor"
+  },
+  {
+    "id": "66698",
+    "path": "Baby > Strollers & Accessories"
+  },
+  {
+    "id": "100223",
+    "path": "Baby > Baby Gear"
+  },
+  {
+    "id": "100982",
+    "path": "Baby > Carriers, Slings & Backpacks"
+  },
+  {
+    "id": "117388",
+    "path": "Baby > Keepsakes & Baby Announcements"
+  },
+  {
+    "id": "3252",
+    "path": "Travel"
+  },
+  {
+    "id": "1310",
+    "path": "Travel > Other Travel"
+  },
+  {
+    "id": "3253",
+    "path": "Travel > Airline"
+  },
+  {
+    "id": "16078",
+    "path": "Travel > Cruises"
+  },
+  {
+    "id": "16080",
+    "path": "Travel > Luggage"
+  },
+  {
+    "id": "16123",
+    "path": "Travel > Lodging"
+  },
+  {
+    "id": "29578",
+    "path": "Travel > Vacation Packages"
+  },
+  {
+    "id": "93838",
+    "path": "Travel > Travel Accessories"
+  },
+  {
+    "id": "98982",
+    "path": "Travel > Rail"
+  },
+  {
+    "id": "147399",
+    "path": "Travel > Car Rental"
+  },
+  {
+    "id": "164802",
+    "path": "Travel > Campground & RV Parks"
+  },
+  {
+    "id": "164803",
+    "path": "Travel > Maps"
+  },
+  {
+    "id": "173520",
+    "path": "Travel > Luggage Accessories"
+  },
+  {
+    "id": "183477",
+    "path": "Travel > Vintage Luggage & Travel Accs"
+  },
+  {
+    "id": "10542",
+    "path": "Real Estate"
+  },
+  {
+    "id": "1607",
+    "path": "Real Estate > Other Real Estate"
+  },
+  {
+    "id": "12605",
+    "path": "Real Estate > Residential"
+  },
+  {
+    "id": "15825",
+    "path": "Real Estate > Commercial"
+  },
+  {
+    "id": "15841",
+    "path": "Real Estate > Land"
+  },
+  {
+    "id": "15897",
+    "path": "Real Estate > Timeshares for Sale"
+  },
+  {
+    "id": "94825",
+    "path": "Real Estate > Manufactured Homes"
+  },
+  {
+    "id": "11116",
+    "path": "Coins & Paper Money"
+  },
+  {
+    "id": "253",
+    "path": "Coins & Paper Money > Coins: US"
+  },
+  {
+    "id": "256",
+    "path": "Coins & Paper Money > Coins: World"
+  },
+  {
+    "id": "3377",
+    "path": "Coins & Paper Money > Coins: Canada"
+  },
+  {
+    "id": "3411",
+    "path": "Coins & Paper Money > Paper Money: World"
+  },
+  {
+    "id": "3412",
+    "path": "Coins & Paper Money > Paper Money: US"
+  },
+  {
+    "id": "3444",
+    "path": "Coins & Paper Money > Stocks & Bonds, Scripophily"
+  },
+  {
+    "id": "3452",
+    "path": "Coins & Paper Money > Exonumia"
+  },
+  {
+    "id": "4733",
+    "path": "Coins & Paper Money > Coins: Ancient"
+  },
+  {
+    "id": "18466",
+    "path": "Coins & Paper Money > Coins: Medieval"
+  },
+  {
+    "id": "39482",
+    "path": "Coins & Paper Money > Bullion"
+  },
+  {
+    "id": "83274",
+    "path": "Coins & Paper Money > Publications & Supplies"
+  },
+  {
+    "id": "169305",
+    "path": "Coins & Paper Money > Other Coins & Paper Money"
+  },
+  {
+    "id": "179197",
+    "path": "Coins & Paper Money > Virtual Currency"
+  },
+  {
+    "id": "11232",
+    "path": "Movies & TV"
+  },
+  {
+    "id": "309",
+    "path": "Movies & TV > VHS Tapes"
+  },
+  {
+    "id": "381",
+    "path": "Movies & TV > Laserdiscs"
+  },
+  {
+    "id": "617",
+    "path": "Movies & TV > DVDs & Blu-ray Discs"
+  },
+  {
+    "id": "41676",
+    "path": "Movies & TV > Other Formats"
+  },
+  {
+    "id": "52554",
+    "path": "Movies & TV > Video Media Accessories"
+  },
+  {
+    "id": "63821",
+    "path": "Movies & TV > Film Stock"
+  },
+  {
+    "id": "132975",
+    "path": "Movies & TV > UMDs"
+  },
+  {
+    "id": "262053",
+    "path": "Movies & TV > Movie NFTs"
+  },
+  {
+    "id": "11233",
+    "path": "Music"
+  },
+  {
+    "id": "618",
+    "path": "Music > Other Formats"
+  },
+  {
+    "id": "52473",
+    "path": "Music > Audio Media Accessories"
+  },
+  {
+    "id": "176983",
+    "path": "Music > Cassettes"
+  },
+  {
+    "id": "176984",
+    "path": "Music > CDs"
+  },
+  {
+    "id": "176985",
+    "path": "Music > Vinyl Records"
+  },
+  {
+    "id": "262054",
+    "path": "Music > Music NFTs"
+  },
+  {
+    "id": "11450",
+    "path": "Clothing, Shoes & Accessories"
+  },
+  {
+    "id": "171146",
+    "path": "Clothing, Shoes & Accessories > Kids"
+  },
+  {
+    "id": "260010",
+    "path": "Clothing, Shoes & Accessories > Women"
+  },
+  {
+    "id": "260012",
+    "path": "Clothing, Shoes & Accessories > Men"
+  },
+  {
+    "id": "260018",
+    "path": "Clothing, Shoes & Accessories > Baby"
+  },
+  {
+    "id": "260033",
+    "path": "Clothing, Shoes & Accessories > Specialty"
+  },
+  {
+    "id": "11700",
+    "path": "Home & Garden"
+  },
+  {
+    "id": "299",
+    "path": "Home & Garden > Household Supplies & Cleaning"
+  },
+  {
+    "id": "631",
+    "path": "Home & Garden > Tools & Workshop Equipment"
+  },
+  {
+    "id": "3197",
+    "path": "Home & Garden > Furniture"
+  },
+  {
+    "id": "10033",
+    "path": "Home & Garden > Home Décor"
+  },
+  {
+    "id": "11827",
+    "path": "Home & Garden > Wedding Supplies"
+  },
+  {
+    "id": "14308",
+    "path": "Home & Garden > Food & Beverages"
+  },
+  {
+    "id": "16086",
+    "path": "Home & Garden > Greeting Cards & Party Supply"
+  },
+  {
+    "id": "16092",
+    "path": "Home & Garden > School Supplies"
+  },
+  {
+    "id": "20444",
+    "path": "Home & Garden > Bedding"
+  },
+  {
+    "id": "20563",
+    "path": "Home & Garden > Pillows"
+  },
+  {
+    "id": "20571",
+    "path": "Home & Garden > Rugs & Carpets"
+  },
+  {
+    "id": "20625",
+    "path": "Home & Garden > Kitchen, Dining & Bar"
+  },
+  {
+    "id": "20697",
+    "path": "Home & Garden > Lamps, Lighting & Ceiling Fans"
+  },
+  {
+    "id": "20710",
+    "path": "Home & Garden > Major Appliances"
+  },
+  {
+    "id": "26677",
+    "path": "Home & Garden > Bath"
+  },
+  {
+    "id": "31605",
+    "path": "Home & Garden > Wholesale Lots"
+  },
+  {
+    "id": "63514",
+    "path": "Home & Garden > Window Treatments & Hardware"
+  },
+  {
+    "id": "159907",
+    "path": "Home & Garden > Home Improvement"
+  },
+  {
+    "id": "159912",
+    "path": "Home & Garden > Yard, Garden & Outdoor Living"
+  },
+  {
+    "id": "170090",
+    "path": "Home & Garden > Holiday & Seasonal Décor"
+  },
+  {
+    "id": "176988",
+    "path": "Home & Garden > Kids & Teens at Home"
+  },
+  {
+    "id": "177073",
+    "path": "Home & Garden > Kitchen Fixtures"
+  },
+  {
+    "id": "178069",
+    "path": "Home & Garden > Fresh Cut Flowers"
+  },
+  {
+    "id": "181076",
+    "path": "Home & Garden > Other Home & Garden"
+  },
+  {
+    "id": "262975",
+    "path": "Home & Garden > Candles & Home Fragrance"
+  },
+  {
+    "id": "12576",
+    "path": "Business & Industrial"
+  },
+  {
+    "id": "11748",
+    "path": "Business & Industrial > Agriculture & Forestry"
+  },
+  {
+    "id": "11759",
+    "path": "Business & Industrial > Websites & Businesses for Sale"
+  },
+  {
+    "id": "11804",
+    "path": "Business & Industrial > CNC, Metalworking & Manufacturing"
+  },
+  {
+    "id": "11815",
+    "path": "Business & Industrial > Healthcare, Lab & Dental"
+  },
+  {
+    "id": "11874",
+    "path": "Business & Industrial > Restaurant & Food Service"
+  },
+  {
+    "id": "11890",
+    "path": "Business & Industrial > Retail & Services"
+  },
+  {
+    "id": "11897",
+    "path": "Business & Industrial > Facility Maintenance & Safety"
+  },
+  {
+    "id": "25298",
+    "path": "Business & Industrial > Office"
+  },
+  {
+    "id": "26221",
+    "path": "Business & Industrial > Material Handling"
+  },
+  {
+    "id": "26238",
+    "path": "Business & Industrial > Printing & Graphic Arts"
+  },
+  {
+    "id": "26261",
+    "path": "Business & Industrial > Other Business & Industrial"
+  },
+  {
+    "id": "41498",
+    "path": "Business & Industrial > Building Materials & Supplies"
+  },
+  {
+    "id": "42892",
+    "path": "Business & Industrial > Industrial Automation & Motion Controls"
+  },
+  {
+    "id": "42909",
+    "path": "Business & Industrial > HVAC & Refrigeration"
+  },
+  {
+    "id": "46534",
+    "path": "Business & Industrial > Cleaning & Janitorial Supplies"
+  },
+  {
+    "id": "55805",
+    "path": "Business & Industrial > Modular & Prefabricated Buildings"
+  },
+  {
+    "id": "61573",
+    "path": "Business & Industrial > Light Equipment & Tools"
+  },
+  {
+    "id": "92074",
+    "path": "Business & Industrial > Electrical Equipment & Supplies"
+  },
+  {
+    "id": "109471",
+    "path": "Business & Industrial > Adhesives, Sealants & Tapes"
+  },
+  {
+    "id": "159693",
+    "path": "Business & Industrial > Fuel & Energy"
+  },
+  {
+    "id": "181939",
+    "path": "Business & Industrial > Test, Measurement & Inspection"
+  },
+  {
+    "id": "183900",
+    "path": "Business & Industrial > Fasteners & Hardware"
+  },
+  {
+    "id": "183978",
+    "path": "Business & Industrial > Hydraulics, Pneumatics, Pumps & Plumbing"
+  },
+  {
+    "id": "257887",
+    "path": "Business & Industrial > Heavy Equipment, Parts & Attachments"
+  },
+  {
+    "id": "14339",
+    "path": "Crafts"
+  },
+  {
+    "id": "3122",
+    "path": "Crafts > Stamping & Embossing"
+  },
+  {
+    "id": "11783",
+    "path": "Crafts > Art Supplies"
+  },
+  {
+    "id": "11788",
+    "path": "Crafts > Scrapbooking & Paper Crafts"
+  },
+  {
+    "id": "28102",
+    "path": "Crafts > Multi-Purpose Craft Supplies"
+  },
+  {
+    "id": "28131",
+    "path": "Crafts > Leathercrafts"
+  },
+  {
+    "id": "28162",
+    "path": "Crafts > Fabric"
+  },
+  {
+    "id": "31723",
+    "path": "Crafts > Beads & Jewelry Making"
+  },
+  {
+    "id": "45074",
+    "path": "Crafts > Wholesale Lots"
+  },
+  {
+    "id": "71183",
+    "path": "Crafts > Handcrafted & Finished Pieces"
+  },
+  {
+    "id": "75576",
+    "path": "Crafts > Other Crafts"
+  },
+  {
+    "id": "116652",
+    "path": "Crafts > Kids' Crafts"
+  },
+  {
+    "id": "160667",
+    "path": "Crafts > Home Arts & Crafts"
+  },
+  {
+    "id": "160706",
+    "path": "Crafts > Needlecrafts & Yarn"
+  },
+  {
+    "id": "160737",
+    "path": "Crafts > Sewing"
+  },
+  {
+    "id": "163778",
+    "path": "Crafts > Glass & Mosaics"
+  },
+  {
+    "id": "183118",
+    "path": "Crafts > Fabric Painting & Decorating"
+  },
+  {
+    "id": "183302",
+    "path": "Crafts > Sculpting, Molding & Ceramics"
+  },
+  {
+    "id": "15032",
+    "path": "Cell Phones & Accessories"
+  },
+  {
+    "id": "9355",
+    "path": "Cell Phones & Accessories > Cell Phones & Smartphones"
+  },
+  {
+    "id": "9394",
+    "path": "Cell Phones & Accessories > Cell Phone Accessories"
+  },
+  {
+    "id": "38331",
+    "path": "Cell Phones & Accessories > PDAs"
+  },
+  {
+    "id": "43304",
+    "path": "Cell Phones & Accessories > Cell Phone & Smartphone Parts"
+  },
+  {
+    "id": "45065",
+    "path": "Cell Phones & Accessories > Mixed Lots"
+  },
+  {
+    "id": "136699",
+    "path": "Cell Phones & Accessories > Display Phones"
+  },
+  {
+    "id": "146492",
+    "path": "Cell Phones & Accessories > Phone Cards & SIM Cards"
+  },
+  {
+    "id": "175744",
+    "path": "Cell Phones & Accessories > PDA Accessories"
+  },
+  {
+    "id": "178893",
+    "path": "Cell Phones & Accessories > Smart Watches"
+  },
+  {
+    "id": "182064",
+    "path": "Cell Phones & Accessories > Smart Watch Accessories"
+  },
+  {
+    "id": "182073",
+    "path": "Cell Phones & Accessories > Vintage Cell Phones"
+  },
+  {
+    "id": "20081",
+    "path": "Antiques"
+  },
+  {
+    "id": "12",
+    "path": "Antiques > Other Antiques"
+  },
+  {
+    "id": "1217",
+    "path": "Antiques > Primitives"
+  },
+  {
+    "id": "2207",
+    "path": "Antiques > Ethnographic"
+  },
+  {
+    "id": "4707",
+    "path": "Antiques > Architectural & Garden"
+  },
+  {
+    "id": "20082",
+    "path": "Antiques > Asian Antiques"
+  },
+  {
+    "id": "20091",
+    "path": "Antiques > Furniture"
+  },
+  {
+    "id": "20094",
+    "path": "Antiques > Science & Medicine (Pre-1930)"
+  },
+  {
+    "id": "20096",
+    "path": "Antiques > Silver"
+  },
+  {
+    "id": "22422",
+    "path": "Antiques > Incunabula"
+  },
+  {
+    "id": "23048",
+    "path": "Antiques > Manuscripts"
+  },
+  {
+    "id": "37958",
+    "path": "Antiques > Maps, Atlases & Globes"
+  },
+  {
+    "id": "37965",
+    "path": "Antiques > Maritime"
+  },
+  {
+    "id": "37978",
+    "path": "Antiques > Rugs & Carpets"
+  },
+  {
+    "id": "156323",
+    "path": "Antiques > Sewing (Pre-1930)"
+  },
+  {
+    "id": "163091",
+    "path": "Antiques > Mercantile, Trades & Factories"
+  },
+  {
+    "id": "181726",
+    "path": "Antiques > Musical Instruments (Pre-1930)"
+  },
+  {
+    "id": "261588",
+    "path": "Antiques > Tapestries"
+  },
+  {
+    "id": "261755",
+    "path": "Antiques > Restoration & Care"
+  },
+  {
+    "id": "26395",
+    "path": "Health & Beauty"
+  },
+  {
+    "id": "1277",
+    "path": "Health & Beauty > Other Health & Beauty"
+  },
+  {
+    "id": "11778",
+    "path": "Health & Beauty > Medical & Mobility"
+  },
+  {
+    "id": "11838",
+    "path": "Health & Beauty > Bath & Body"
+  },
+  {
+    "id": "11854",
+    "path": "Health & Beauty > Hair Care & Styling"
+  },
+  {
+    "id": "11863",
+    "path": "Health & Beauty > Skin Care"
+  },
+  {
+    "id": "31414",
+    "path": "Health & Beauty > Vision Care"
+  },
+  {
+    "id": "31762",
+    "path": "Health & Beauty > Shaving & Hair Removal"
+  },
+  {
+    "id": "31769",
+    "path": "Health & Beauty > Oral Care"
+  },
+  {
+    "id": "31772",
+    "path": "Health & Beauty > Sun Protection & Tanning"
+  },
+  {
+    "id": "31786",
+    "path": "Health & Beauty > Makeup"
+  },
+  {
+    "id": "33914",
+    "path": "Health & Beauty > Tattoos & Body Art"
+  },
+  {
+    "id": "36447",
+    "path": "Health & Beauty > Massage"
+  },
+  {
+    "id": "40965",
+    "path": "Health & Beauty > Wholesale Lots"
+  },
+  {
+    "id": "47945",
+    "path": "Health & Beauty > Nail Care, Manicure & Pedicure"
+  },
+  {
+    "id": "67588",
+    "path": "Health & Beauty > Health Care"
+  },
+  {
+    "id": "67659",
+    "path": "Health & Beauty > Natural & Alternative Remedies"
+  },
+  {
+    "id": "177731",
+    "path": "Health & Beauty > Salon & Spa Equipment"
+  },
+  {
+    "id": "180345",
+    "path": "Health & Beauty > Fragrances"
+  },
+  {
+    "id": "180959",
+    "path": "Health & Beauty > Vitamins & Lifestyle Supplements"
+  },
+  {
+    "id": "183497",
+    "path": "Health & Beauty > Electronic Smoking, Parts & Accs"
+  },
+  {
+    "id": "45100",
+    "path": "Entertainment Memorabilia"
+  },
+  {
+    "id": "57",
+    "path": "Entertainment Memorabilia > Autographs-Original"
+  },
+  {
+    "id": "196",
+    "path": "Entertainment Memorabilia > Movie Memorabilia"
+  },
+  {
+    "id": "1424",
+    "path": "Entertainment Memorabilia > Television Memorabilia"
+  },
+  {
+    "id": "2312",
+    "path": "Entertainment Memorabilia > Other Entertainment Mem"
+  },
+  {
+    "id": "2329",
+    "path": "Entertainment Memorabilia > Music Memorabilia"
+  },
+  {
+    "id": "2362",
+    "path": "Entertainment Memorabilia > Theater Memorabilia"
+  },
+  {
+    "id": "45101",
+    "path": "Entertainment Memorabilia > Video Game Memorabilia"
+  },
+  {
+    "id": "104412",
+    "path": "Entertainment Memorabilia > Autographs-Reprints"
+  },
+  {
+    "id": "58058",
+    "path": "Computers/Tablets & Networking"
+  },
+  {
+    "id": "162",
+    "path": "Computers/Tablets & Networking > Other Computers & Networking"
+  },
+  {
+    "id": "165",
+    "path": "Computers/Tablets & Networking > Drives, Storage & Blank Media"
+  },
+  {
+    "id": "3516",
+    "path": "Computers/Tablets & Networking > Manuals & Resources"
+  },
+  {
+    "id": "3676",
+    "path": "Computers/Tablets & Networking > Keyboards, Mice & Pointers"
+  },
+  {
+    "id": "11176",
+    "path": "Computers/Tablets & Networking > Home Networking & Connectivity"
+  },
+  {
+    "id": "11189",
+    "path": "Computers/Tablets & Networking > Vintage Computing"
+  },
+  {
+    "id": "18793",
+    "path": "Computers/Tablets & Networking > Software"
+  },
+  {
+    "id": "31530",
+    "path": "Computers/Tablets & Networking > Laptop & Desktop Accessories"
+  },
+  {
+    "id": "86722",
+    "path": "Computers/Tablets & Networking > Power Protection, Distribution"
+  },
+  {
+    "id": "162497",
+    "path": "Computers/Tablets & Networking > Monitors, Projectors & Accs"
+  },
+  {
+    "id": "171485",
+    "path": "Computers/Tablets & Networking > Tablets & eBook Readers"
+  },
+  {
+    "id": "171957",
+    "path": "Computers/Tablets & Networking > Desktops & All-In-Ones"
+  },
+  {
+    "id": "171961",
+    "path": "Computers/Tablets & Networking > Printers, Scanners & Supplies"
+  },
+  {
+    "id": "175672",
+    "path": "Computers/Tablets & Networking > Laptops & Netbooks"
+  },
+  {
+    "id": "175673",
+    "path": "Computers/Tablets & Networking > Computer Components & Parts"
+  },
+  {
+    "id": "175698",
+    "path": "Computers/Tablets & Networking > Enterprise Networking, Servers"
+  },
+  {
+    "id": "176970",
+    "path": "Computers/Tablets & Networking > Tablet & eBook Reader Accs"
+  },
+  {
+    "id": "180235",
+    "path": "Computers/Tablets & Networking > Tablet & eBook Reader Parts"
+  },
+  {
+    "id": "182094",
+    "path": "Computers/Tablets & Networking > Computer Cables & Connectors"
+  },
+  {
+    "id": "183062",
+    "path": "Computers/Tablets & Networking > 3D Printers & Supplies"
+  },
+  {
+    "id": "259696",
+    "path": "Computers/Tablets & Networking > Mixed Lots"
+  },
+  {
+    "id": "64482",
+    "path": "Sports Mem, Cards & Fan Shop"
+  },
+  {
+    "id": "51",
+    "path": "Sports Mem, Cards & Fan Shop > Autographs-Original"
+  },
+  {
+    "id": "212",
+    "path": "Sports Mem, Cards & Fan Shop > Sports Trading Cards"
+  },
+  {
+    "id": "24409",
+    "path": "Sports Mem, Cards & Fan Shop > Fan Apparel & Souvenirs"
+  },
+  {
+    "id": "50115",
+    "path": "Sports Mem, Cards & Fan Shop > Autographs-Reprints"
+  },
+  {
+    "id": "50116",
+    "path": "Sports Mem, Cards & Fan Shop > Game Used Memorabilia"
+  },
+  {
+    "id": "50123",
+    "path": "Sports Mem, Cards & Fan Shop > Vintage Sports Memorabilia"
+  },
+  {
+    "id": "56080",
+    "path": "Sports Mem, Cards & Fan Shop > Wholesale Lots"
+  },
+  {
+    "id": "262343",
+    "path": "Sports Mem, Cards & Fan Shop > Sports Stickers, Collections & Albums"
+  },
+  {
+    "id": "172008",
+    "path": "Gift Cards & Coupons"
+  },
+  {
+    "id": "31411",
+    "path": "Gift Cards & Coupons > Gift Certificates"
+  },
+  {
+    "id": "172009",
+    "path": "Gift Cards & Coupons > Gift Cards"
+  },
+  {
+    "id": "172010",
+    "path": "Gift Cards & Coupons > Coupons"
+  },
+  {
+    "id": "172036",
+    "path": "Gift Cards & Coupons > eBay Gift Cards"
+  },
+  {
+    "id": "176950",
+    "path": "Gift Cards & Coupons > Digital Gifts"
+  }
+]

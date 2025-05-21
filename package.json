@@ -1,0 +1,32 @@
+{
+  "name": "alideals-bot",
+  "version": "1.0.0",
+  "description": "Automated AliExpress deals bot for Telegram",
+  "main": "src/schedule.js",
+  "scripts": {
+    "start": "node src/schedule.js",
+    "dev": "nodemon src/schedule.js",
+    "web": "node src/webInterface.js",
+    "generate": "node src/generateDailyDeals.js",
+    "send": "node src/sendFromQueue.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.9.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-cron": "^4.0.4",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

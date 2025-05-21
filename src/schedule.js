@@ -10,10 +10,18 @@ console.log('📅 מופעל תזמון אוטומטי חדש להרצת דיל�
 schedule.scheduleJob('45 8 * * *', async () => {
   console.log(`[${new Date().toISOString()}] 🔍 מריץ יצירת דילים יומיים אוטומטית`);
   try {
-    await generateDailyDeals();
-    console.log(`[${new Date().toISOString()}] ✅ יצירת הדילים היומיים הסתיימה בהצלחה`);
+    const success = await generateDailyDeals();
+    if (success) {
+      console.log(`[${new Date().toISOString()}] ✅ יצירת הדילים היומיים הסתיימה.`);
+      // Additional check for file content can be done here if needed,
+      // For example, by reading the daily_deals.json and checking its length.
+      // However, generateDailyDeals already logs warnings if few/no deals are made.
+    } else {
+      console.warn(`[${new Date().toISOString()}] ⚠️  generateDailyDeals היומי הסתיים אך החזיר false (לא נוצרו דילים או שגיאה פנימית). בדוק לוגים של generateDailyDeals.`);
+    }
   } catch (err) {
-    console.error(`[${new Date().toISOString()}] ❌ שגיאה ביצירת דילים יומיים:`, err.message);
+    console.error(`[${new Date().toISOString()}] 🔥 CRITICAL: המשימה generateDailyDeals נכשלה עם שגיאה:`, err.message);
+    console.error(err.stack); // Log the full stack trace for critical errors
   }
 });
 
@@ -62,11 +70,20 @@ async function checkAndInitializeDeals() {
   if (needToGenerateDeals) {
     console.log(`[${new Date().toISOString()}] 🚀 מריץ יצירת דילים ראשונית`);
     try {
-      await generateDailyDeals();
-      console.log(`[${new Date().toISOString()}] ✅ יצירת דילים ראשונית הסתיימה בהצלחה`);
+      const success = await generateDailyDeals();
+      if (success) {
+        console.log(`[${new Date().toISOString()}] ✅ יצירת דילים ראשונית הסתיימה.`);
+      } else {
+        console.warn(`[${new Date().toISOString()}] ⚠️  generateDailyDeals הראשוני הסתיים אך החזיר false. בדוק לוגים של generateDailyDeals.`);
+        // We might still want to return true here to allow sending if previous deals exist,
+        // or false if we strictly require new deals for the first run.
+        // Given the current logic, returning true allows the rest of the init to proceed.
+        // The function generateDailyDeals itself logs if it produces no deals.
+      }
     } catch (err) {
-      console.error(`[${new Date().toISOString()}] ❌ שגיאה ביצירת דילים ראשונית:`, err.message);
-      return false;
+      console.error(`[${new Date().toISOString()}] 🔥 CRITICAL: המשימה generateDailyDeals הראשונית נכשלה עם שגיאה:`, err.message);
+      console.error(err.stack);
+      return false; // Indicate failure of this initialization step
     }
   }
   

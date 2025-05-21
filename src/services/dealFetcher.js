@@ -11,13 +11,7 @@ async function fetchDealsFromStrategy(strategy) {
   console.log(`מילות מפתח: ${strategy.keywords.join(', ')}`);
   
   try {
-    const accessToken = await getEbayAccessToken();
-    
-    // אם קיבלנו טוקן ריק למטרות בדיקה, נחזיר נתוני דוגמה
-    if (accessToken === 'dummy-token-for-testing') {
-      console.log('🔄 משתמש בנתוני דוגמה במקום API אמיתי של eBay');
-      return generateSampleDeals(strategy);
-    }
+    const accessToken = await getEbayAccessToken(); // This will now throw an error if token acquisition fails
     
     const endpoint = 'https://api.ebay.com/buy/browse/v1/item_summary/search';
     
@@ -114,9 +108,12 @@ async function fetchDealsFromStrategy(strategy) {
     
     if (items.length === 0) {
       console.log('❌ לא נמצאו מוצרים מתאימים בכל ניסיונות החיפוש');
-      return generateSampleDeals(strategy);
+      // במקום להחזיר נתוני דמה, נחזיר מערך ריק
+      return [];
     }
     
+    // This check is redundant now as the above block handles items.length === 0
+    // However, keeping the log for when items ARE found is fine.
     if (items.length > 0) {
       console.log('דוגמאות פריטים:');
       for (let i = 0; i < Math.min(2, items.length); i++) {
@@ -231,135 +228,16 @@ async function fetchDealsFromStrategy(strategy) {
     });
   } catch (error) {
     console.error('❌ שגיאה כללית בחיפוש מוצרים:', error.message);
-    return generateSampleDeals(strategy);
+    // במקום להחזיר נתוני דמה, נאפשר לשגיאה להתפשט או נחזיר מערך ריק
+    // אם השגיאה היא מכשלון בקבלת טוקן, היא כבר תהיה זרוקה מהשורה הראשונה של הבלוק try
+    // אם זו שגיאה אחרת (למשל, בעיה ברשת בזמן קריאה ל־eBay), נזרוק אותה הלאה
+    // או שנחליט להחזיר מערך ריק אם זה מתאים יותר לקונטקסט של הקריאה לפונקציה זו.
+    // כרגע, נבחר לזרוק את השגיאה הלאה כדי שהקוד הקורא יהיה מודע לבעיה.
+    throw error;
   }
 }
 
-/**
- * מייצר נתוני דוגמה למוצרים בהתבסס על הקטגוריה לצורך בדיקות
- * @param {Object} strategy אסטרטגיית החיפוש
- * @returns {Array} מערך של מוצרי דוגמה
- */
-function generateSampleDeals(strategy) {
-  console.log('📋 יוצר נתוני מוצרים לדוגמה עבור', strategy.strategy_id);
-  
-  const sampleIds = ['388404760407', '388293253225', '176548224554', '354938096123', '404909196483'];
-  
-  const sampleDeals = [
-    {
-      itemId: sampleIds[0],
-      title: `${strategy.keywords[0]} - מוצר דוגמה 1`,
-      viewItemURL: `https://www.ebay.com/itm/${sampleIds[0]}`,
-      galleryURL: 'https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png',
-      price: 79.99,
-      currency: 'ILS',
-      originalPrice: 99.99,
-      discountPercentage: 20,
-      seller: 'seller_example1',
-      feedbackScore: 98,
-      shippingType: 'FIXED',
-      shippingServiceCost: 0,
-      shippingCurrency: 'ILS',
-      condition: 'NEW',
-      itemLocation: 'IL',
-      buyingOptions: ['FIXED_PRICE'],
-      adultOnly: false,
-      ratings: 4.8,
-      ratingsCount: 120
-    },
-    {
-      itemId: sampleIds[1],
-      title: `${strategy.keywords[0]} - מוצר דוגמה 2`,
-      viewItemURL: `https://www.ebay.com/itm/${sampleIds[1]}`,
-      galleryURL: 'https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png',
-      price: 149.99,
-      currency: 'ILS',
-      originalPrice: 179.99,
-      discountPercentage: 17,
-      seller: 'seller_example2',
-      feedbackScore: 99,
-      shippingType: 'FIXED',
-      shippingServiceCost: 8.99,
-      shippingCurrency: 'ILS',
-      condition: 'NEW',
-      itemLocation: 'US',
-      buyingOptions: ['FIXED_PRICE'],
-      adultOnly: false,
-      ratings: 4.9,
-      ratingsCount: 85
-    },
-    {
-      itemId: sampleIds[2],
-      title: `${strategy.keywords.length > 1 ? strategy.keywords[1] : strategy.keywords[0]} - מוצר דוגמה 3`,
-      viewItemURL: `https://www.ebay.com/itm/${sampleIds[2]}`,
-      galleryURL: 'https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png',
-      price: 49.99,
-      currency: 'ILS',
-      originalPrice: null,
-      discountPercentage: null,
-      seller: 'seller_example3',
-      feedbackScore: 97,
-      shippingType: 'FIXED',
-      shippingServiceCost: 0,
-      shippingCurrency: 'ILS',
-      condition: 'NEW',
-      itemLocation: 'GB',
-      buyingOptions: ['FIXED_PRICE'],
-      adultOnly: false,
-      ratings: 4.7,
-      ratingsCount: 220
-    },
-    {
-      itemId: sampleIds[3],
-      title: `${strategy.keywords.length > 1 ? strategy.keywords[1] : strategy.keywords[0]} - מוצר דוגמה 4`,
-      viewItemURL: `https://www.ebay.com/itm/${sampleIds[3]}`,
-      galleryURL: 'https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png',
-      price: 119.99,
-      currency: 'ILS',
-      originalPrice: 159.99,
-      discountPercentage: 25,
-      seller: 'seller_example4',
-      feedbackScore: 98,
-      shippingType: 'FIXED',
-      shippingServiceCost: 0,
-      shippingCurrency: 'ILS',
-      condition: 'NEW',
-      itemLocation: 'CN',
-      buyingOptions: ['FIXED_PRICE'],
-      adultOnly: false,
-      ratings: 4.6,
-      ratingsCount: 175
-    },
-    {
-      itemId: sampleIds[4],
-      title: `${strategy.keywords.length > 2 ? strategy.keywords[2] : strategy.keywords[0]} - מוצר דוגמה 5`,
-      viewItemURL: `https://www.ebay.com/itm/${sampleIds[4]}`,
-      galleryURL: 'https://ir.ebaystatic.com/cr/v/c1/ebay-logo-1-1200x630-margin.png',
-      price: 89.99,
-      currency: 'ILS',
-      originalPrice: 109.99,
-      discountPercentage: 18,
-      seller: 'seller_example5',
-      feedbackScore: 100,
-      shippingType: 'FIXED',
-      shippingServiceCost: 4.99,
-      shippingCurrency: 'ILS',
-      condition: 'NEW',
-      itemLocation: 'JP',
-      buyingOptions: ['FIXED_PRICE'],
-      adultOnly: false,
-      ratings: 4.9,
-      ratingsCount: 310
-    }
-  ];
-
-  for (const deal of sampleDeals) {
-    deal.searchCategory = strategy.strategy_id;
-    deal.searchKeywords = strategy.keywords;
-    deal.searchExplanation = "מוצר דוגמה למטרות בדיקה";
-  }
-  
-  return sampleDeals;
-}
+// The function generateSampleDeals is no longer needed as we are removing all calls to it.
+// It can be removed entirely.
 
 module.exports = { fetchDealsFromStrategy };

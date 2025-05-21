@@ -131,10 +131,26 @@ https://t.me/BestDealsHour`;
     }
     
     // עדכן את הקובץ - הסר את הדילים ששלחנו
-    deals = deals.slice(dealsToSend.length);
-    fs.writeFileSync(dealsPath, JSON.stringify(deals, null, 2), 'utf8');
-    
-    console.log(`\n✅ הסבב הסתיים. נשארו ${deals.length} דילים בתור.`);
+    const remainingDeals = deals.slice(dealsToSend.length);
+    const tempDealsPath = `${dealsPath}.tmp`;
+
+    try {
+      fs.writeFileSync(tempDealsPath, JSON.stringify(remainingDeals, null, 2), 'utf8');
+      fs.renameSync(tempDealsPath, dealsPath);
+      console.log(`\n✅ הסבב הסתיים. נשארו ${remainingDeals.length} דילים בתור.`);
+    } catch (writeErr) {
+      console.error(`❌ שגיאה בעדכון קובץ הדילים ${dealsPath}:`, writeErr.message);
+      // נסה למחוק את הקובץ הזמני אם קיים במקרה של שגיאה
+      if (fs.existsSync(tempDealsPath)) {
+        try {
+          fs.unlinkSync(tempDealsPath);
+          console.log('🗑️ הקובץ הזמני של הדילים נמחק');
+        } catch (unlinkErr) {
+          console.error(`❌ שגיאה במחיקת הקובץ הזמני של הדילים ${tempDealsPath}:`, unlinkErr.message);
+        }
+      }
+      // אין צורך לזרוק את השגיאה הלאה כאן, כי הפעולה העיקרית (שליחה) כבר התבצעה או נכשלה ברמת הפריט
+    }
   } catch (err) {
     console.error('❌ שגיאה בעיבוד או שליחת דילים:', err.message);
   }

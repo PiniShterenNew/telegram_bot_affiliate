@@ -27,6 +27,29 @@
     "telegraf": "^4.16.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-node": "^11.0.0"
+  },
+  "scripts": {
+    "start": "node src/schedule.js",
+    "dev": "nodemon src/schedule.js",
+    "web": "node src/webInterface.js",
+    "generate": "node src/generateDailyDeals.js",
+    "send": "node src/sendFromQueue.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-node": "^11.0.0",
+    "jest": "^27.0.0"
   }
 }

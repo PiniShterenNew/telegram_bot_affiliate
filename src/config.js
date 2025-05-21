@@ -11,5 +11,9 @@ module.exports = {
   TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_TOKEN,
   TELEGRAM_CHANNEL_ID: process.env.CHANNEL_ID,
 
-  EPN_CAMPAIGN_ID: process.env.EPN_CAMPAIGN_ID
+  EPN_CAMPAIGN_ID: process.env.EPN_CAMPAIGN_ID,
+
+  // Credentials for Web Interface Basic Auth
+  WEB_INTERFACE_USERNAME: process.env.WEB_INTERFACE_USERNAME,
+  WEB_INTERFACE_PASSWORD: process.env.WEB_INTERFACE_PASSWORD
 };

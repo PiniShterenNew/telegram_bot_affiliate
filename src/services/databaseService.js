@@ -13,20 +13,17 @@ db.serialize(() => {
 });
 
 // פונקציה בודקת האם פריט כבר נשלח
-// מוחזר false תמיד כדי שכל המוצרים יישלחו בכל פעם
 function isDealSent(itemId) {
-  // תמיד מחזיר false - כלומר המוצר לא נשלח בעבר
-  return Promise.resolve(false);
-  
   // הקוד המקורי למטה מוערפל - אפשר להחזיר לשימוש אם רוצים לחזור לבדיקה מול מסד הנתונים
-  /*
   return new Promise((resolve, reject) => {
     db.get('SELECT item_id FROM sent_deals WHERE item_id = ?', [itemId], (err, row) => {
-      if (err) return reject(err);
-      resolve(!!row);
+      if (err) {
+        console.error(`❌ שגיאה בבדיקת ה-deal במסד הנתונים: ${itemId}`, err.message);
+        return reject(err);
+      }
+      resolve(!!row); // !!row יהיה true אם נמצאה שורה, אחרת false
     });
   });
-  */
 }
 
 function markDealAsSent(itemId, title) {

@@ -78,7 +78,14 @@ async function generateDailyDeals() {
     
     // שליפת מוצרים
     console.log(`  מחפש מוצרים לפי מילות מפתח: ${strategy.keywords.join(', ')}`);
-    const dealsForNiche = await fetchDealsFromStrategy(strategy);
+    let dealsForNiche = [];
+    try {
+      dealsForNiche = await fetchDealsFromStrategy(strategy);
+    } catch (err) {
+      console.error(`❌ שגיאה בשליפת מוצרים עבור נישה "${niche.name}": ${err.message}`);
+      // המשך לנישה הבאה
+      dealsForNiche = []; // ודא שזה מערך ריק במקרה של שגיאה
+    }
     
     if (dealsForNiche && dealsForNiche.length > 0) {
       console.log(`  ✅ נמצאו ${dealsForNiche.length} מוצרים לנישה "${niche.name}"`);
@@ -129,7 +136,13 @@ async function generateDailyDeals() {
       console.log(`\n🔍 נישה נוספת ${index + 1}/${additionalNiches.length}: ${niche.name}`);
       
       const strategy = createStrategyFromNiche(niche);
-      const dealsForNiche = await fetchDealsFromStrategy(strategy);
+      let dealsForNiche = [];
+      try {
+        dealsForNiche = await fetchDealsFromStrategy(strategy);
+      } catch (err) {
+        console.error(`❌ שגיאה בשליפת מוצרים עבור נישה נוספת "${niche.name}": ${err.message}`);
+        dealsForNiche = []; // ודא שזה מערך ריק במקרה של שגיאה
+      }
       
       if (dealsForNiche && dealsForNiche.length > 0) {
         const filteredDeals = dealsForNiche.filter(deal => {
@@ -223,12 +236,35 @@ async function generateDailyDeals() {
     }
     
     const outputPath = path.join(dataDir, 'daily_deals.json');
-    fs.writeFileSync(outputPath, JSON.stringify(enrichedDeals, null, 2), 'utf8');
-    
-    console.log(`\n✅ נשמרו ${enrichedDeals.length} דילים לקובץ ${outputPath}`);
-    return true;
+    const tempOutputPath = `${outputPath}.tmp`;
+
+    try {
+      fs.writeFileSync(tempOutputPath, JSON.stringify(enrichedDeals, null, 2), 'utf8');
+      fs.renameSync(tempOutputPath, outputPath);
+      console.log(`\n✅ נשמרו ${enrichedDeals.length} דילים לקובץ ${outputPath}`);
+      if (enrichedDeals.length < 5) {
+        console.warn(`⚠️ אזהרה: generateDailyDeals יצר רק ${enrichedDeals.length} דילים. יש לבדוק את שירותי המקור כמו dealFetcher או מצב eBay API.`);
+      }
+      return true;
+    } catch (err) {
+      console.error(`❌ שגיאה בשמירת קובץ הדילים: ${err.message}`);
+      // נסה למחוק את הקובץ הזמני אם קיים במקרה של שגיאה
+      if (fs.existsSync(tempOutputPath)) {
+        try {
+          fs.unlinkSync(tempOutputPath);
+          console.log('🗑️ הקובץ הזמני נמחק');
+        } catch (unlinkErr) {
+          console.error(`❌ שגיאה במחיקת הקובץ הזמני ${tempOutputPath}: ${unlinkErr.message}`);
+        }
+      }
+      return false;
+    }
   } else {
-    console.error('❌ לא נמצאו דילים להעשרה, לא נשמר קובץ');
+    console.error('❌ לא נמצאו דילים להעשרה, לא נשמר קובץ.');
+    console.warn('⚠️ אזהרה: generateDailyDeals לא יצר דילים כלל. יש לבדוק את שירותי המקור כמו dealFetcher, Gemini, או מצב eBay API.');
+    // החזרת false מציינת שהתהליך לא הצליח לייצר דילים, אך לא בהכרח שיש שגיאה קריטית שצריכה לעצור את כל האפליקציה.
+    // ההחלטה אם לדרוס קובץ ישן עם קובץ ריק היא מורכבת. כרגע, אם אין דילים, לא נשמר קובץ חדש (ולא דורסים קודם).
+    // אם רוצים התנהגות אחרת (לדוגמה, לא לדרוס אם הקודם קיים ויש בו תוכן), צריך להוסיף לוגיקה נוספת כאן.
     return false;
   }
 }

@@ -24,7 +24,25 @@ function saveTokenToFile(tokenObj) {
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
-  fs.writeFileSync(TOKEN_PATH, JSON.stringify(tokenObj, null, 2));
+  
+  const tempTokenPath = `${TOKEN_PATH}.tmp`;
+  try {
+    fs.writeFileSync(tempTokenPath, JSON.stringify(tokenObj, null, 2), 'utf8');
+    fs.renameSync(tempTokenPath, TOKEN_PATH);
+  } catch (err) {
+    console.error(`❌ שגיאה בשמירת קובץ הטוקן ${TOKEN_PATH}:`, err.message);
+    // נסה למחוק את הקובץ הזמני אם קיים במקרה של שגיאה
+    if (fs.existsSync(tempTokenPath)) {
+      try {
+        fs.unlinkSync(tempTokenPath);
+        console.log('🗑️ הקובץ הזמני של הטוקן נמחק');
+      } catch (unlinkErr) {
+        console.error(`❌ שגיאה במחיקת הקובץ הזמני של הטוקן ${tempTokenPath}:`, unlinkErr.message);
+      }
+    }
+    // זרוק את השגיאה הלאה כדי שהקוד הקורא יהיה מודע לכך שהשמירה נכשלה
+    throw err;
+  }
 }
 
 function verifyCredentials() {
@@ -103,11 +121,13 @@ async function getEbayAccessToken() {
       throw err;
     }
   } catch (err) {
-    console.error('❌ שגיאה בתהליך קבלת טוקן eBay:', err.message);
-    
-    // החזר טוקן ריק לצורך המשך פיתוח ובדיקות אחרות
-    console.log('⚠️ משתמש בטוקן ריק למטרות בדיקה. תוצאות מ-eBay לא יהיו זמינות.');
-    return 'dummy-token-for-testing';
+    // שגיאות שנזרקו מ־verifyCredentials או מהבקשה לטוקן יתפסו כאן
+    // וייזרקו הלאה באופן אוטומטי אלא אם נרצה לטפל בהן באופן מיוחד כאן.
+    // כרגע, נאפשר להן להתפשט הלאה.
+    console.error('❌ שגיאה קריטית בתהליך קבלת טוקן eBay:', err.message);
+    // במקום להחזיר טוקן דמה, אנחנו נאפשר לשגיאה להתפשט
+    // כדי שהקוד הקורא יוכל לטפל בכשלון קבלת הטוקן.
+    throw err; // זרוק את השגיאה המקורית הלאה
   }
 }
 
